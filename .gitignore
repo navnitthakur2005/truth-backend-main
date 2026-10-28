@@ -1,0 +1,47 @@
+# Flask/Django Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Local SQLite database
+instance/truthlens.db
+
+# Flask session/pickle files
+*.pyc
+__pycache__/
+*.pkl
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Media / data files (large artifacts)
+media/
+uploads/
+
+# Test coverage reports
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+# Optional: large data caches
+*.cache/
